@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Evaluación 1 - Introducción a la Programación</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">    
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Portada</a></li>
+			<li><a href="random.html">Random</a></li>
+			<li><a href="sonido.html">Sonido</a></li>
+			<li><a href="data.html">Data</a></li>
+		</ul>
+	</nav>
+	<div id="frase">
+		<blockquote>
+			<p><span id="dirigido"></span> recuerda que el devenir mutó a un evenir, es decir, la metafísica binaria sin absolutos ha sido extinguida, cosa que no tenemos precedentes históricos.</p>
+			<cite>— <a href="https://www.latercera.com/opinion/noticia/la-revolucion-sexual-50-anos-woodstock/784471/">Daniela Carrasco</a></cite>
+		</blockquote>
+	</div>
+	
+	<div id="pie">
+		<input type="text" id="nombre"/>
+		<input type="number" id="edad"/>
+		<select id="signo">
+			<option selected>signo zodiacal</option>
+			<option value="#e53935">Aries</option>
+			<option value="#388e3c">Tauro</option>
+			<option value="#fbc02d">Géminis</option>
+			<option value="#e0e0e0">Cáncer</option>
+			<option value="#ff5722">Leo</option>
+			<option value="#a1887f">Virgo</option>
+			<option value="#f06292">Libra</option>
+			<option value="#a00037">Escorpio</option>
+			<option value="#1976d2">Sagitario</option>
+			<option value="#757575">Capricornio</option>
+			<option value="#00acc1">Acuario</option>
+			<option value="#9c27b0">Piscis</option>
+			<!-- 
+
+			los colores de los signos vienen de https://la100.cienradios.com/horoscopo-color-la-suerte-signo-del-zodiaco/
+
+			y la transformación a "color accesible" la obtengo de https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=A1887F
+
+			ARIES: Los nativos de Aries son parte de los signos del elemento fuego y representa el color rojo… => #e53935
+
+			TAURO: A las personas de Tauro se las vincula con el color verde… => #388e3c
+
+			GÉMINIS: Su energía se revitaliza con la cercanía del color amarillo… => #fbc02d
+
+			CÁNCER: Estos nativos con el color blanco… => #e0e0e0
+
+			LEO: …el uso de las tonalidades naranjas… => #ff5722
+
+			VIRGO: Para ellos lo ideal son los tonos marrones… => #a1887f
+
+			LIBRA: A estos románticos el rosa… => #f06292
+
+			ESCORPIO: …un vino tinto… => #a00037
+
+			SAGITARIO: El azul del océano… #1976d2
+
+			CAPRICORNIO: Lo recomendados son el marrón y negro… => #757575
+
+			ACUARIO: …una tonalidad más bien turquesa… => #00acc1;
+
+			PISCIS: …violeta les transmiten calma… => #9c27b0
+
+			-->
+		</select>
+		<button onclick="cambia()">Vamos a por ello!</button>
+	</div>
+    
+    <script src="sketch-index.js"></script>
+</body>
+
+</html>
