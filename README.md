@@ -15,7 +15,7 @@
 
 | Documento    | Desafío            				        		   | Puntos |
 |:-------------|:------------------------------------------|:------:|
-| `graph.html` | En caso quieras asegurar medio punto extra, puedes cambiar el tipo de gráfico que se despliega en página, por ejemplo, cambiar *lineal* por *barras* | 0.5 |
+| `graph.html` | En caso quieras asegurar medio punto extra, puedes cambiar el tipo de gráfico que se despliega en página, por ejemplo, cambiar *lineal* por *barras llenas* (que borde y contenido tengan mismo color) | 0.5 |
 | `mapa.html`  | En caso quieras asegurar medio punto extra, puedes cambiar el tipo de mapa que se despliega en página, por ejemplo, cambiar *streets* por *dark* | 0.5 |
 
 **En caso se obtenga nota 7.0 sin uso del punto extra, este se traspasa a los acumulados clase a clase.**
